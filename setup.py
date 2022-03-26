@@ -11,7 +11,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     packages=['neon_coref_plugin_neuralcoref_demo'],
-    install_requires=["ovos-plugin-manager", "requests"],
+    install_requires=["ovos-plugin-manager~=0.0.16", "requests"],
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
